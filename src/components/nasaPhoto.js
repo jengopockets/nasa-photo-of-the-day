@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 const Image = styled.img`
-size: 50%;
+height: 50%;
+width: 50%;
+padding-top: 5rem;
+border: 2px solid black;
 `;
 
 
