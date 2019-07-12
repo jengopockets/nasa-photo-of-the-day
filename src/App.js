@@ -1,8 +1,7 @@
 import React, {useState, useEffect} from "react";
-import styled from 'styled-components';
 import axios from 'axios';
+import Card from './components/nasaCard'
 import "./App.css";
-const Image = styled.img``
 
 function App() {
   const [data, setData]= useState("");
@@ -16,7 +15,7 @@ function App() {
   }, []);
   return (
     <>
-     <Image src={data.url} alt="image of the day"/>
+     <Card data={data} />
     </>
   );
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-const Image = styled.img``;
+const Image = styled.img`
+size: 50%;
+`;
 
 
 export default function Photo(props) {
